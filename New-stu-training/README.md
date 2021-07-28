@@ -35,7 +35,7 @@
 ### 4.2 最大匹配分词数据
 * [分词数据]()
 ### 4.3 词性标注数据
-* [小数据集]()  
+* [小数据集](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AF%8D%E6%80%A7%E6%A0%87%E6%B3%A8%E6%95%B0%E6%8D%AE/data.tar.gz)  
 
  | 训练 | 开发 |     
  | :----: | :----: |   
