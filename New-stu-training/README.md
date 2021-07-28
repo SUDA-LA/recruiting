@@ -1,4 +1,3 @@
-<a href="https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AF%8D%E6%80%A7%E6%A0%87%E6%B3%A8%E6%95%B0%E6%8D%AE/data.tar.gz" download="">附件1</a>
 # New-stu-training
 ## 1 李正华TODO
  我的PPT不好，有的要简化，例如GB编码没有具体说明：两个字节，第一个字节怎么样。  
