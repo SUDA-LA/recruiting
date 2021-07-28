@@ -49,7 +49,7 @@
 ## 5 基础编程训练列表
 ### 5.1 分字
 给定文件，将文件中的句子按照字（字符）切分，字符中间用空格隔开。用C/C++实现。Python（3.0）可以直接用split处理UTF8编码的字符串，也试试，对比一下结果。  
-* 参考资料：[文件:Chinese-encoding.pdf]()
+* 参考资料：[文件:Chinese-encoding.pdf](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/Chinese-encoding.pdf)
 * 数据：[几个不同编码的文件]()，可以用hexdump查看。也可以自己生成不同编码的文件。
 ### 5.2 最大匹配分词
 * 参考课件：[最大匹配]()
