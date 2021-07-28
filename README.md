@@ -45,8 +45,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 审核考博，研三上学期经过选拔，硕士结束，毕业后，入学。  
 第2个方案最优，但是研二上学期选拔前（10月份左右）就要至少录用一篇CCF-A/B/C类的会议长文，否则选拔时，打分不够的，可以问问师兄姐了解情况。
 ## 4 视频、PPT信息
-* 2019年9月28日句法标注培训（LA组介绍）：[mp4视频](http://hlt.suda.edu.cn/~zhli/)、[pdf](http://hlt.suda.edu.cn/~zhli/)
-* 2018年6月6日宣讲：[pdf](http://hlt.suda.edu.cn/~zhli/)
+* 2019年9月28日句法标注培训（LA组介绍）：[mp4视频](http://hlt.suda.edu.cn/~zhli/)、[pdf](https://github.com/SUDA-LA/recruiting/blob/main/Zhenghua-recruiting/zhenghua-2019-9-28-LAGroup.pdf)
+* 2018年6月6日宣讲：[pdf](https://github.com/SUDA-LA/recruiting/blob/main/Zhenghua-recruiting/zhenghua-LAGroup-intro.pdf)
 * 2017年9月宣讲：[视频](https://pan.baidu.com/s/1eSD2u2I#list/path=%2F)
 ## 5 我的特点和风格（2019.6.18）
 * 认真：做事情就要把事情搞清楚，不能糊里糊涂。把事情搞清楚，才能自我提升，越活越明白，才有乐趣。
