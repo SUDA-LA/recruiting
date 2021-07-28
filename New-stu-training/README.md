@@ -33,7 +33,7 @@
 ### 4.1 CoNLL格式的含义
 * 每个词占一行，每行的第2列为当前词语，第4列为当前词的词性，第7列为当前词的中心词的序号，第8列为当前词语与中心词的依存关系。句子与句子之间以空行间隔。
 ### 4.2 最大匹配分词数据
-* [分词数据]()
+* [分词数据](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/data.conll)
 ### 4.3 词性标注数据
 * [小数据集](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AF%8D%E6%80%A7%E6%A0%87%E6%B3%A8%E6%95%B0%E6%8D%AE/data.tar.gz)  
 
