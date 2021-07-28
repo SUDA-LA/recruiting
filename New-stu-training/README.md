@@ -1,3 +1,4 @@
+<a href="annex/附件1.docx" target="_blank">附件1</a>
 # New-stu-training
 ## 1 李正华TODO
  我的PPT不好，有的要简化，例如GB编码没有具体说明：两个字节，第一个字节怎么样。  
