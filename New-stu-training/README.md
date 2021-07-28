@@ -40,7 +40,7 @@
  | 训练 | 开发 |     
  | :----: | :----: |   
  | 803句 | 1910句 |  
-* [大数据集]()  
+* [大数据集](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AF%8D%E6%80%A7%E6%A0%87%E6%B3%A8%E6%95%B0%E6%8D%AE/ctb5-postagged.tar.gz)  
 
 | 训练 | 开发 | 测试 |    
 | :----: | :----: | :----: |  
@@ -52,20 +52,20 @@
 * 参考资料：[文件:Chinese-encoding.pdf](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/Chinese-encoding.pdf)
 * 数据：[几个不同编码的文件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%88%86%E5%AD%97%E6%95%B0%E6%8D%AE/example.tar.gz)，可以用hexdump查看。也可以自己生成不同编码的文件。
 ### 5.2 最大匹配分词
-* 参考课件：[最大匹配]()
+* 参考课件：[最大匹配](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/max-match.ppt)
 ### 5.3 有监督HMM词性标注
-* 参考课件：[Collins教授课件]()、[李正华的课件]()、[理解HMM的Viterbi]()、[HMM模型中极大似然估计的由来(公式推导)]()
+* 参考课件：[Collins教授课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/collins-tagging.pdf)、[李正华的课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM.pdf)、[理解HMM的Viterbi](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM-v2.pptx)、[HMM模型中极大似然估计的由来(公式推导)](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM%E6%9C%80%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1.pdf)
 ### 5.4 基于线性模型（linear model）的词性标注
 * 要点：判别模型、partial feature
-* 参考课件：[李正华老师课件]()
+* 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/LinearModel.pdf)
 ### 5.5 基于最大熵（max-entropy，log-linear）模型的词性标注
 * 要点：梯度下降方法，Adam优化
-* 参考课件：[李正华老师课件]()、[Collins教授课件]()
+* 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/LogLinearModel.pdf)、[Collins教授课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/collins-loglinear.pdf)
 ### 5.6 基于全局线性模型（global linear model）的词性标注
-参考课件：[李正华老师课件]()
+参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/GlobalLinearModel.pdf)
 ### 5.7 基于条件随机场（conditional random field，CRF）模型的词性标注
 * 要点：全局概率、期望、Forward-backward结合、viterbi解码
-* 参考课件：[李正华老师课件]()
+* 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/CRF.pdf)
 ### 5.8 基于前馈神经网络（FFN）的词性标注
 * 要点：必须自己实现前向计算loss，和backpropagation。
 * 参考：neural networks and deeplearning神经网络入门书籍([英文版](http://neuralnetworksanddeeplearning.com/)、[中文版](https://github.com/zhanggyb/nndl/releases/download/latest/nndl-ebook.pdf))基本阅读完前三章即可完成本任务. [吴恩达深度学习(带中文字幕)](https://mooc.study.163.com/university/deeplearning_ai#/c)
