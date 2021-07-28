@@ -68,7 +68,7 @@
 * 参考课件：[李正华老师课件]()
 ### 5.8 基于前馈神经网络（FFN）的词性标注
 * 要点：必须自己实现前向计算loss，和backpropagation。
-* 参考：neural networks and deeplearning神经网络入门书籍[英文版](http://neuralnetworksanddeeplearning.com/)[中文版](https://github.com/zhanggyb/nndl/releases/download/latest/nndl-ebook.pdf) 基本阅读完前三章即可完成本任务. [吴恩达深度学习(带中文字幕)]()
+* 参考：neural networks and deeplearning神经网络入门书籍([英文版]、(http://neuralnetworksanddeeplearning.com/)[中文版](https://github.com/zhanggyb/nndl/releases/download/latest/nndl-ebook.pdf))基本阅读完前三章即可完成本任务. [吴恩达深度学习(带中文字幕)]()
 ### 5.9 基于FFN-CRF的词性标注
 * 要点：仍然自己实现前向计算loss，和backpropagation。
 * 提示：将神经网络输出看成发射矩阵，之后加上转移矩阵
