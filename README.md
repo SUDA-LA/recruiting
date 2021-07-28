@@ -37,7 +37,7 @@
 * 考察结束后，我会进行1-2次视频、代码面试。最终决定是否录取。
 * 考察期间，建议同学同时联系其他老师，以防最后被拒。
 ### 2.3 基础编程练习
-* [基础编程练习网页](http://hlt.suda.edu.cn/index.php/New-stu-training)
+* [基础编程练习网页](https://github.com/SUDA-LA/recruiting/tree/main/New-stu-training)
 ## 3 硕士转博士
 非常欢迎我自己培养的、且有科研兴趣和理想的硕士生继续读博士。 有三个方案：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 博士候选人，直接就转成博士（不建议，对科研没有概念，不知道自己是否喜欢，有点冒险）  
@@ -45,7 +45,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 审核考博，研三上学期经过选拔，硕士结束，毕业后，入学。  
 第2个方案最优，但是研二上学期选拔前（10月份左右）就要至少录用一篇CCF-A/B/C类的会议长文，否则选拔时，打分不够的，可以问问师兄姐了解情况。
 ## 4 视频、PPT信息
-* 2019年9月28日句法标注培训（LA组介绍）：[mp4视频](http://hlt.suda.edu.cn/~zhli/)、[pdf](https://github.com/SUDA-LA/recruiting/blob/main/Zhenghua-recruiting/zhenghua-2019-9-28-LAGroup.pdf)
+* 2019年9月28日句法标注培训（LA组介绍）：[mp4视频](http://hlt.suda.edu.cn/~zhli/2019-9-train/LAGroup.mp4)、[pdf](https://github.com/SUDA-LA/recruiting/blob/main/Zhenghua-recruiting/zhenghua-2019-9-28-LAGroup.pdf)
 * 2018年6月6日宣讲：[pdf](https://github.com/SUDA-LA/recruiting/blob/main/Zhenghua-recruiting/zhenghua-LAGroup-intro.pdf)
 * 2017年9月宣讲：[视频](https://pan.baidu.com/s/1eSD2u2I#list/path=%2F)
 ## 5 我的特点和风格（2019.6.18）
