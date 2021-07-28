@@ -76,7 +76,7 @@
 * 要点：可以利用Pytorch自带的。Dropout等的使用，是关键。
 ### 5.11 基于BiLSTM-CRF的词性标注
 ### 5.12 github已有代码，不同同学的代码可以看不同的branch：
-[github网址]()
+[github网址](https://github.com/SUDA-LA/CIP)
 ## 6 后续自主学习扩展
 ### 6.1 基于图的依存句法分析
 直接用神经网络实现即可。Biaffine Parser框架。  
