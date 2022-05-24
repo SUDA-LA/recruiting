@@ -42,7 +42,7 @@
 * 考察结束后，我会进行1-2次视频、代码面试。最终决定是否录取。
 * 考察期间，建议同学同时联系其他老师，以防最后被拒。
 ### 2.3 基础编程练习
-* [基础编程练习网页](https://github.com/SUDA-LA/recruiting/tree/main/New-stu-training)
+* [基础编程练习网页（github版）](https://github.com/SUDA-LA/recruiting/tree/main/New-stu-training)
 ## 3 硕士转博士
 非常欢迎我自己培养的、且有科研兴趣和理想的硕士生继续读博士。 有三个方案：  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 博士候选人，直接就转成博士（不建议，对科研没有概念，不知道自己是否喜欢，有点冒险）  
