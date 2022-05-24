@@ -15,10 +15,10 @@
   * 任何一个理论或方法，从不同角度都可以进行解释，看的角度多了，就没有自己的角度了。网上的各种资料，都是从不同角度来说同一个事，看多了就乱了。
 * 如果有问题，可以找自己的mentor去讨论，如果mentor也不懂，那说明mentor也没理解，就可以发邮件给老师。
 ## 3 参考书目
+* Dan Jurafsky. [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/),[中文翻译](https://www.kancloud.cn/drxgz/slp20201230#/dashboard)(强烈推荐！)
 * [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)（李正华强烈推荐，看完前三章就差不多了）
 * Andrew Ng的视频:[吴恩达深度学习(带中文字幕)](https://mooc.study.163.com/university/deeplearning_ai#/c)
 * Chris Manning. 2005. 统计自然语言处理基础.
-* Dan Jurafsky. Speech and Language Processing
 * 宗成庆. 2008. 统计自然语言处理.
 * 李航. 2012. 统计学习方法.
 * 神经网络与深度学习
