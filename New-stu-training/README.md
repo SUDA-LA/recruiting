@@ -48,14 +48,45 @@
 * 示例： 输入：严守一 把 手机 关 了 输出：严守一/NR 把/P手机/NN关/VV 了/SP
 ## 5 基础编程训练列表
 ### 5.1 分字
-* [对应2022年春季信息检索课程作业1](http://hlt.suda.edu.cn/index.php/Ir-2022-spring)
+* 2022春视频和图片：
+  * 低画质：[作业1]()
+  * 高画质：[作业1-part1]()、[作业1-part2]()
+  * 图片：[图1]()、[图2]()
+* UTF-8数据：[文件:Sentence.txt]()
+* UFT-8编码规则：
+```
+1字节 0xxxxxxx   
+2字节 110xxxxx 10xxxxxx   
+3字节 1110xxxx 10xxxxxx 10xxxxxx   
+4字节 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx   
+5字节 111110xx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx   
+6字节 1111110x 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx    
+```
 * 下面的内容可以不看
 
 给定文件，将文件中的句子按照字（字符）切分，字符中间用空格隔开。用C/C++实现。Python（3.0）可以直接用split处理UTF8编码的字符串，也试试，对比一下结果。  
 * 参考资料：[文件:Chinese-encoding.pdf](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/Chinese-encoding.pdf)
 * 数据：[几个不同编码的文件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%88%86%E5%AD%97%E6%95%B0%E6%8D%AE/example.tar.gz)，可以用hexdump查看。也可以自己生成不同编码的文件。
 ### 5.2 最大匹配分词
-* [对应2022年春季信息检索课程作业3](http://hlt.suda.edu.cn/index.php/Ir-2022-spring)
+* 课件：前向最大匹配 PDF文件--文件:[文件:Word-seg-max-match.pdf]()；PPT文件--[文件:Word-seg-max-match.zip]()
+* 2022春视频和图片：
+  * 低画质：[作业3]()
+  * 高画质：[作业3]()
+  * 图片：[图]()
+* 数据下载：
+  * 字典：[文件:Dict.txt]()
+  * 待分词：[文件:Sentence.txt]()
+  * 正确答案（人工标注的，你的模型的预测结果要和这个文件进行对比，从而得到P/R/F值）：[文件:Answer.txt]();
+  * 正向最大匹配分词模型的预测结果（如果你的程序写对了，那么应该和这个结果一模一样）：[文件:Out.txt]()
+```
+*正确实验结果   
+**正确识别的词数：20263   
+**识别出的总体个数：20397   
+**测试集中的总体个数：20454   
+**正确率：0.99343  
+**召回率：0.99066   
+**F值：0.99204  
+```
 * 下面的内容可以不看
 * 参考课件：[最大匹配](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/max-match.ppt)
 ### 5.3 有监督HMM词性标注
