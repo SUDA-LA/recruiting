@@ -59,7 +59,7 @@
 * 下面的内容可以不看
 * 参考课件：[最大匹配](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/max-match.ppt)
 ### 5.3 有监督HMM词性标注
-* 图片和视频：
+* 图片和视频（下载密码：SUDA_NLP_HLT_LA）：
   * 低画质：[第1部分](http://139.224.234.18:6001/HMM-part-1.mp4)、[第2部分](http://139.224.234.18:6001/HMM-part-2.mp4)、[第3部分](http://139.224.234.18:6001/HMM-part-3.mp4)、[第4部分](http://139.224.234.18:6001/HMM-part-4.mp4)
   * 高画质：[第1部分](http://139.224.234.18:6001/HMM-part-1-hd.mp4)、[第2部分](http://139.224.234.18:6001/HMM-part-2-hd.mp4)、[第3部分](http://139.224.234.18:6001/HMM-part-3-hd.mp4)、[第4部分](http://139.224.234.18:6001/HMM-part-4-hd.mp4)
   * 图片：[第1部分](http://139.224.234.18:6001/HMM-part-1.jpg)、[第2部分](http://139.224.234.18:6001/HMM-part-2.jpg)、[第3部分](http://139.224.234.18:6001/HMM-part-3.jpg)、[第4部分](http://139.224.234.18:6001/HMM-part-4.jpg)
@@ -67,13 +67,13 @@
 ### 5.4 基于线性模型（linear model）的词性标注
 * 要点：判别模型、partial feature
 * 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/LinearModel.pdf)
-* 图片和视频：
+* 图片和视频（下载密码：SUDA_NLP_HLT_LA）：
   * 视频：[第1部分](http://139.224.234.18:6001/linear-model-1.mp4)、[第2部分](http://139.224.234.18:6001/linear-model-2.mp4)、[第3部分](http://139.224.234.18:6001/linear-model-3.mp4)、[第4部分](http://139.224.234.18:6001/linear-model-4.mp4)、[第5部分](http://139.224.234.18:6001/linear-model-5.mp4)
   * 图片：[第1部分](http://139.224.234.18:6001/linear-model-1.jpg)、[第2部分](http://139.224.234.18:6001/linear-model-2.jpg)、[第3部分](http://139.224.234.18:6001/linear-model-3.jpg)、[第4部分](http://139.224.234.18:6001/linear-model-4.jpg)、[第5部分](http://139.224.234.18:6001/linear-model-5.jpg)
 ### 5.5 基于最大熵（max-entropy，log-linear）模型的词性标注
 * 要点：梯度下降方法，Adam优化
 * 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/LogLinearModel.pdf)、[Collins教授课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/collins-loglinear.pdf)
-* 图片和视频：
+* 图片和视频（下载密码：SUDA_NLP_HLT_LA）：
   * 视频：[第1部分](http://139.224.234.18:6001/Maximum-entropy-1.mp4)、[第2部分](http://139.224.234.18:6001/Maximum-entropy-2.mp4)
   * 图片：[第1部分](http://139.224.234.18:6001/Maximum-entropy-1.jpg)、[第2部分](http://139.224.234.18:6001/Maximum-entropy-2.jpg)
 ### 5.6 基于全局线性模型（global linear model）的词性标注
