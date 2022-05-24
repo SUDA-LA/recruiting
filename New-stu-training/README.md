@@ -15,10 +15,10 @@
   * 任何一个理论或方法，从不同角度都可以进行解释，看的角度多了，就没有自己的角度了。网上的各种资料，都是从不同角度来说同一个事，看多了就乱了。
 * 如果有问题，可以找自己的mentor去讨论，如果mentor也不懂，那说明mentor也没理解，就可以发邮件给老师。
 ## 3 参考书目
+* Dan Jurafsky. [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/),[中文翻译](https://www.kancloud.cn/drxgz/slp20201230#/dashboard)(强烈推荐！)
 * [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)（李正华强烈推荐，看完前三章就差不多了）
 * Andrew Ng的视频:[吴恩达深度学习(带中文字幕)](https://mooc.study.163.com/university/deeplearning_ai#/c)
 * Chris Manning. 2005. 统计自然语言处理基础.
-* Dan Jurafsky. Speech and Language Processing
 * 宗成庆. 2008. 统计自然语言处理.
 * 李航. 2012. 统计学习方法.
 * 神经网络与深度学习
@@ -40,7 +40,7 @@
  | 训练 | 开发 |     
  | :----: | :----: |   
  | 803句 | 1910句 |  
-* [大数据集]()  
+* [大数据集](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AF%8D%E6%80%A7%E6%A0%87%E6%B3%A8%E6%95%B0%E6%8D%AE/ctb5-postagged.tar.gz)  
 
 | 训练 | 开发 | 测试 |    
 | :----: | :----: | :----: |  
@@ -48,24 +48,68 @@
 * 示例： 输入：严守一 把 手机 关 了 输出：严守一/NR 把/P手机/NN关/VV 了/SP
 ## 5 基础编程训练列表
 ### 5.1 分字
+* 2022春视频和图片：
+  * 视频：[视频](http://139.224.234.18:6001/split-char-low-quality.mp4)
+  * 图片：[图1](http://139.224.234.18:6001/split-char-figure-1.jpg)、[图2](http://139.224.234.18:6001/split-char-figure-2.jpg)
+* UTF-8数据：[文件:Sentence.txt]()
+* UFT-8编码规则：
+```
+1字节 0xxxxxxx   
+2字节 110xxxxx 10xxxxxx   
+3字节 1110xxxx 10xxxxxx 10xxxxxx   
+4字节 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx   
+5字节 111110xx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx   
+6字节 1111110x 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx    
+```
+* 下面的内容可以不看
+
 给定文件，将文件中的句子按照字（字符）切分，字符中间用空格隔开。用C/C++实现。Python（3.0）可以直接用split处理UTF8编码的字符串，也试试，对比一下结果。  
 * 参考资料：[文件:Chinese-encoding.pdf](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/Chinese-encoding.pdf)
 * 数据：[几个不同编码的文件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%88%86%E5%AD%97%E6%95%B0%E6%8D%AE/example.tar.gz)，可以用hexdump查看。也可以自己生成不同编码的文件。
 ### 5.2 最大匹配分词
-* 参考课件：[最大匹配]()
+* 课件：前向最大匹配 PDF文件--文件:[文件:Word-seg-max-match.pdf]()；PPT文件--[文件:Word-seg-max-match.zip]()
+* 2022春视频和图片：
+  * 视频：[视频](http://139.224.234.18:6001/word-seg-max-match-low-quality.mp4)
+  * 图片：[图](http://139.224.234.18:6001/word-seg-max-match.jpg)
+* 数据下载：
+  * 字典：[文件:Dict.txt]()
+  * 待分词：[文件:Sentence.txt]()
+  * 正确答案（人工标注的，你的模型的预测结果要和这个文件进行对比，从而得到P/R/F值）：[文件:Answer.txt]();
+  * 正向最大匹配分词模型的预测结果（如果你的程序写对了，那么应该和这个结果一模一样）：[文件:Out.txt]()
+```
+*正确实验结果   
+**正确识别的词数：20263   
+**识别出的总体个数：20397   
+**测试集中的总体个数：20454   
+**正确率：0.99343  
+**召回率：0.99066   
+**F值：0.99204  
+```
+* 下面的内容可以不看
+* 参考课件：[最大匹配](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/max-match.ppt)
 ### 5.3 有监督HMM词性标注
-* 参考课件：[Collins教授课件]()、[李正华的课件]()、[理解HMM的Viterbi]()、[HMM模型中极大似然估计的由来(公式推导)]()
+* 图片和视频：
+  * 低画质：[第1部分](http://139.224.234.18:6001/HMM-part-1.mp4)、[第2部分](http://139.224.234.18:6001/HMM-part-2.mp4)、[第3部分](http://139.224.234.18:6001/HMM-part-3.mp4)、[第4部分](http://139.224.234.18:6001/HMM-part-4.mp4)
+  * 高画质：[第1部分](http://139.224.234.18:6001/HMM-part-1-hd.mp4)、[第2部分](http://139.224.234.18:6001/HMM-part-2-hd.mp4)、[第3部分](http://139.224.234.18:6001/HMM-part-3-hd.mp4)、[第4部分](http://139.224.234.18:6001/HMM-part-4-hd.mp4)
+  * 图片：[第1部分](http://139.224.234.18:6001/HMM-part-1.jpg)、[第2部分](http://139.224.234.18:6001/HMM-part-2.jpg)、[第3部分](http://139.224.234.18:6001/HMM-part-3.jpg)、[第4部分](http://139.224.234.18:6001/HMM-part-4.jpg)
+* 参考课件：[Collins教授课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/collins-tagging.pdf)、[李正华的课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM.pdf)、[理解HMM的Viterbi](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM-v2.pptx)、[HMM模型中极大似然估计的由来(公式推导)](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM%E6%9C%80%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1.pdf)
 ### 5.4 基于线性模型（linear model）的词性标注
 * 要点：判别模型、partial feature
-* 参考课件：[李正华老师课件]()
+* 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/LinearModel.pdf)
+* 图片和视频：
+  * 视频：[第1部分](http://139.224.234.18:6001/linear-model-1.mp4)、[第2部分](http://139.224.234.18:6001/linear-model-2.mp4)、[第3部分](http://139.224.234.18:6001/linear-model-3.mp4)、[第4部分](http://139.224.234.18:6001/linear-model-4.mp4)、[第5部分](http://139.224.234.18:6001/linear-model-5.mp4)
+  * 图片：[第1部分](http://139.224.234.18:6001/linear-model-1.jpg)、[第2部分](http://139.224.234.18:6001/linear-model-2.jpg)、[第3部分](http://139.224.234.18:6001/linear-model-3.jpg)、[第4部分](http://139.224.234.18:6001/linear-model-4.jpg)、[第5部分](http://139.224.234.18:6001/linear-model-5.jpg)
 ### 5.5 基于最大熵（max-entropy，log-linear）模型的词性标注
 * 要点：梯度下降方法，Adam优化
-* 参考课件：[李正华老师课件]()、[Collins教授课件]()
+* 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/LogLinearModel.pdf)、[Collins教授课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/collins-loglinear.pdf)
+* 图片和视频：
+  * 视频：[第1部分](http://139.224.234.18:6001/Maximum-entropy-1.mp4)、[第2部分](http://139.224.234.18:6001/Maximum-entropy-2.mp4)
+  * 图片：[第1部分](http://139.224.234.18:6001/Maximum-entropy-1.jpg)、[第2部分](http://139.224.234.18:6001/Maximum-entropy-2.jpg)
 ### 5.6 基于全局线性模型（global linear model）的词性标注
-参考课件：[李正华老师课件]()
+参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/GlobalLinearModel.pdf)
 ### 5.7 基于条件随机场（conditional random field，CRF）模型的词性标注
 * 要点：全局概率、期望、Forward-backward结合、viterbi解码
-* 参考课件：[李正华老师课件]()
+* 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/CRF.pdf)
 ### 5.8 基于前馈神经网络（FFN）的词性标注
 * 要点：必须自己实现前向计算loss，和backpropagation。
 * 参考：neural networks and deeplearning神经网络入门书籍([英文版](http://neuralnetworksanddeeplearning.com/)、[中文版](https://github.com/zhanggyb/nndl/releases/download/latest/nndl-ebook.pdf))基本阅读完前三章即可完成本任务. [吴恩达深度学习(带中文字幕)](https://mooc.study.163.com/university/deeplearning_ai#/c)
