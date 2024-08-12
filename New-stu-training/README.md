@@ -53,7 +53,7 @@
   * 低画质：[作业1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-low-quality.mp4)
   * 高画质：[作业1-part1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-part-1.mp4)、[作业1-part2](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-part-2.mp4)
   * 图片：[图1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-figure-1.jpg)、[图2](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-figure-2.jpg)
-* UTF-8数据：[文件:Sentence.txt](http://hlt.suda.edu.cn/index.php/%E6%96%87%E4%BB%B6:Sentence.txt)
+* UTF-8数据：[文件:Sentence.txt]([http://hlt.suda.edu.cn/index.php/%E6%96%87%E4%BB%B6:Sentence.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Sentence.txt))
 * UFT-8编码规则：
 ```
 1字节 0xxxxxxx
