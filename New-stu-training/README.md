@@ -7,7 +7,7 @@
 * 我们精心设计了一系列的基础练习作业，从简单到复杂，逐步深入：[题目（课程）主页](#training)
 * 请直入主题，从题目出发，按照推荐的顺序，逐一做
 * 遇到一个题目，去下面的课件或讲义中寻找相关内容，进行快速学习和理解
-* * 做基础练习的时候，要关注主要知识点，不要陷入细枝末节，否则的话，进度就太慢了。比如随机过程，这个本身是非常大的一个概念，千万不要钻进去学习，了解其基本概念、例子即可。
+  * 做基础练习的时候，要关注主要知识点，不要陷入细枝末节，否则的话，进度就太慢了。比如随机过程，这个本身是非常大的一个概念，千万不要钻进去学习，了解其基本概念、例子即可。
   * 总之，一切以正确完成编程题目为主要目标，先做出来，然后做对，最后做好
   * 我相信，等编程作业做完了，很多知识点就会有自己的理解了
 * 注意，**千万不要直接看别人写好的代码，一定要努力自己去理解和消化。** 一定要有一个自己思考的过程，尽最大努力自己写代码，即使效率低，准确率差，也没关系。通过自己的思考，逐渐优化和提高。这个过程非常重要，很有意义。
@@ -49,15 +49,30 @@
 <a id="table1">Table - 1</a>
 ## 5 <a id="training">基础编程训练列表</a>
 ### 5.1 分字
-* [对应2022年春季信息检索课程作业1](http://hlt.suda.edu.cn/index.php/Ir-2022-spring)
+* 2022春IR课程视频和图片：
+  * 低画质：[作业1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-low-quality.mp4)
+  * 高画质：[作业1-part1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-part-1.mp4)、[作业1-part2](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-part-2.mp4)
+  * 图片：[图1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-figure-1.jpg)、[图2](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-figure-2.jpg)
+* UTF-8数据：[文件:Sentence.txt](http://hlt.suda.edu.cn/index.php/%E6%96%87%E4%BB%B6:Sentence.txt)
+* UFT-8编码规则：
+```
+1字节 0xxxxxxx
+2字节 110xxxxx 10xxxxxx
+3字节 1110xxxx 10xxxxxx 10xxxxxx
+4字节 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+5字节 111110xx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx
+6字节 1111110x 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 
+```
 * 下面的内容可以不看
 
-给定文件，将文件中的句子按照字（字符）切分，字符中间用空格隔开。用C/C++实现。Python（3.0）可以直接用split处理UTF8编码的字符串，也试试，对比一下结果。  
-* 参考资料：[文件:Chinese-encoding.pdf](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/Chinese-encoding.pdf)
-* 数据：[几个不同编码的文件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%88%86%E5%AD%97%E6%95%B0%E6%8D%AE/example.tar.gz)，可以用hexdump查看。也可以自己生成不同编码的文件。
+  * 给定文件，将文件中的句子按照字（字符）切分，字符中间用空格隔开。用C/C++实现。Python（3.0）可以直接用split处理UTF8编码的字符串，也试试，对比一下结果。  
+  * 参考资料：[文件:Chinese-encoding.pdf](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/Chinese-encoding.pdf)
+  * 数据：[几个不同编码的文件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%88%86%E5%AD%97%E6%95%B0%E6%8D%AE/example.tar.gz)，可以用hexdump查看。也可以自己生成不同编码的文件。
 ### 5.2 最大匹配分词
-* 课件：前向最大匹配 PDF文件--文件:[文件:Word-seg-max-match.pdf](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/Word-seg-max-match.pdf)；PPT文件--[文件:Word-seg-max-match.zip](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/Word-seg-max-match.zip)
-* [对应2022年春季信息检索课程作业3](http://hlt.suda.edu.cn/index.php/Ir-2022-spring)
+* 2022春IR课程视频和图片：
+  * 低画质：[作业3](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/word-seg-max-match-low-quality.mp4)
+  * 高画质：[作业3](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/word-seg-max-match.mp4)
+  * 图片：[图](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/word-seg-max-match.jpg)
 * 数据下载：
   * 字典：[文件:Dict.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Dict.txt)
   * 待分词：[文件:Sentence.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Sentence.txt)
