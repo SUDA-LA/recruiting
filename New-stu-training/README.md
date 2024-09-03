@@ -96,7 +96,7 @@
   * 低画质：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-1.mp4)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-2.mp4)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-3.mp4)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-4.mp4)
   * 高画质：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-1-hd.mp4)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-2-hd.mp4)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-3-hd.mp4)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-4-hd.mp4)
   * 图片：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-1.jpg)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-2.jpg)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-3.jpg)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-4.jpg)
-  * 视频课程百度网盘链接：https://pan.baidu.com/s/1YY9jiUEtkQLuWl6OwXNUQw?pwd=6yna 提取码: 6yna
+  * 视频课程百度网盘链接： https://pan.baidu.com/s/1IOPBz-mzEabjo9-nTOFTOA 提取码: pfkq 
 * 参考课件：[Collins教授课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/collins-tagging.pdf)、[李正华的课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM.pdf)、[理解HMM的Viterbi](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM-v2.pptx)、[HMM模型中极大似然估计的由来(公式推导)](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM%E6%9C%80%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1.pdf)
 ### 5.4 基于线性模型（linear model）的词性标注
 * 要点：判别模型、partial feature
@@ -104,14 +104,14 @@
 * 图片和视频：
   * 视频：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-1.mp4)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-2.mp4)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-3.mp4)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-4.mp4)、[第5部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-5.mp4)
   * 图片：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-1.jpg)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-2.jpg)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-3.jpg)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-4.jpg)、[第5部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-5.jpg)
-  * 视频课程百度网盘链接：https://pan.baidu.com/s/1YY9jiUEtkQLuWl6OwXNUQw?pwd=6yna 提取码: 6yna
+  * 视频课程百度网盘链接： https://pan.baidu.com/s/1qec5SEPmVlqYrjBbn4S5wQ 提取码: 9i6x 
 ### 5.5 基于最大熵（max-entropy，log-linear）模型的词性标注
 * 要点：梯度下降方法，Adam优化
 * 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/LogLinearModel.pdf)、[Collins教授课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/collins-loglinear.pdf)
 * 图片和视频：
   * 视频：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/Maximum-entropy-1.mp4)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/Maximum-entropy-2.mp4)
   * 图片：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/Maximum-entropy-1.jpg)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/Maximum-entropy-2.jpg)
-  * 视频课程百度网盘链接：https://pan.baidu.com/s/1YY9jiUEtkQLuWl6OwXNUQw?pwd=6yna 提取码: 6yna
+  * 视频课程百度网盘链接： https://pan.baidu.com/s/12q3iO5s23N6L9fEo3LuP7w 提取码: ra9h 
 ### 5.6 基于全局线性模型（global linear model）的词性标注
 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/GlobalLinearModel.pdf)
 ### 5.7 基于条件随机场（conditional random field，CRF）模型的词性标注
