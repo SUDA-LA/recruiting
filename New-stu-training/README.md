@@ -53,6 +53,7 @@
   * 低画质：[作业1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-low-quality.mp4)
   * 高画质：[作业1-part1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-part-1.mp4)、[作业1-part2](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-part-2.mp4)
   * 图片：[图1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-figure-1.jpg)、[图2](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-figure-2.jpg)
+  * 视频课程百度网盘链接： https://pan.baidu.com/s/1PM6t2zN5XmbZC9_uL6qNIg 提取码: 13a1
 * UTF-8数据：[文件:Sentence.txt]([http://hlt.suda.edu.cn/index.php/%E6%96%87%E4%BB%B6:Sentence.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Sentence.txt))
 * UFT-8编码规则：
 ```
@@ -73,11 +74,13 @@
   * 低画质：[作业3](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/word-seg-max-match-low-quality.mp4)
   * 高画质：[作业3](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/word-seg-max-match.mp4)
   * 图片：[图](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/word-seg-max-match.jpg)
+  * 视频课程百度网盘链接： https://pan.baidu.com/s/1rB19YyCXpyrIEKQeqzC38Q 提取码: uetq
 * 数据下载：
   * 字典：[文件:Dict.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Dict.txt)
   * 待分词：[文件:Sentence.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Sentence.txt)
   * 正确答案（人工标注的，你的模型的预测结果要和这个文件进行对比，从而得到P/R/F值）：[文件:Answer.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Answer.txt);
   * 正向最大匹配分词模型的预测结果（如果你的程序写对了，那么应该和这个结果一模一样）：[文件:Out.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Out.txt)
+
 ```
 *正确实验结果   
 **正确识别的词数：20263   
