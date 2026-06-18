@@ -47,14 +47,14 @@
 | 16091句 | 803句 | 1910句 |  
 * 示例： 输入：严守一 把 手机 关 了 输出：严守一/NR 把/P手机/NN关/VV 了/SP
 <a id="table1">Table - 1</a>
+
 ## 5 <a id="training">基础编程训练列表</a>
+
 ### 5.1 分字
-* 2022春IR课程视频和图片：
-  * 低画质：[作业1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-low-quality.mp4)
-  * 高画质：[作业1-part1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-part-1.mp4)、[作业1-part2](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-part-2.mp4)
-  * 图片：[图1](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-figure-1.jpg)、[图2](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/split-char-figure-2.jpg)
-  * 视频课程百度网盘链接： https://pan.baidu.com/s/1PM6t2zN5XmbZC9_uL6qNIg 提取码: 13a1
-* UTF-8数据：[文件:Sentence.txt]([http://hlt.suda.edu.cn/index.php/%E6%96%87%E4%BB%B6:Sentence.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Sentence.txt))
+
+* 视频: [分字-1](https://www.bilibili.com/video/BV1PJYTzbET8)、[分字-2](https://www.bilibili.com/video/BV1AJYTzbEnC)
+* 图片：[图1](图片/split-char-figure-1.jpg)、[图2](图片/split-char-figure-2.jpg)
+* UTF-8数据：[文件:Sentence.txt]([Sentence.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Sentence.txt))
 * UFT-8编码规则：
 ```
 1字节 0xxxxxxx
@@ -69,12 +69,11 @@
   * 给定文件，将文件中的句子按照字（字符）切分，字符中间用空格隔开。用C/C++实现。Python（3.0）可以直接用split处理UTF8编码的字符串，也试试，对比一下结果。  
   * 参考资料：[文件:Chinese-encoding.pdf](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/Chinese-encoding.pdf)
   * 数据：[几个不同编码的文件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%88%86%E5%AD%97%E6%95%B0%E6%8D%AE/example.tar.gz)，可以用hexdump查看。也可以自己生成不同编码的文件。
+
 ### 5.2 最大匹配分词
-* 2022春IR课程视频和图片：
-  * 低画质：[作业3](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/word-seg-max-match-low-quality.mp4)
-  * 高画质：[作业3](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/word-seg-max-match.mp4)
-  * 图片：[图](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/word-seg-max-match.jpg)
-  * 视频课程百度网盘链接： https://pan.baidu.com/s/1rB19YyCXpyrIEKQeqzC38Q 提取码: uetq
+
+* 视频: [最大匹配分词](https://www.bilibili.com/video/BV1AJYTzbEyB)
+* 图片：[图](图片/word-seg-max-match.jpg)
 * 数据下载：
   * 字典：[文件:Dict.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Dict.txt)
   * 待分词：[文件:Sentence.txt](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E5%88%86%E8%AF%8D%E6%95%B0%E6%8D%AE/Sentence.txt)
@@ -92,27 +91,27 @@
 ```
 * 下面的内容可以不看
 * 参考课件：[最大匹配](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/max-match.ppt)
+
 ### 5.3 有监督HMM词性标注
-* 图片和视频：
-  * 低画质：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-1.mp4)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-2.mp4)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-3.mp4)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-4.mp4)
-  * 高画质：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-1-hd.mp4)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-2-hd.mp4)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-3-hd.mp4)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-4-hd.mp4)
-  * 图片：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-1.jpg)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-2.jpg)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-3.jpg)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/HMM-part-4.jpg)
-  * 视频课程百度网盘链接： https://pan.baidu.com/s/1IOPBz-mzEabjo9-nTOFTOA 提取码: pfkq 
+
+* 视频: [有监督HMM-1](https://www.bilibili.com/video/BV14GYTzPEQp)、[有监督HMM-2](https://www.bilibili.com/video/BV1KGYTzPEfL)、[有监督HMM-3](https://www.bilibili.com/video/BV1TGYTzPESc)、[有监督HMM-4](https://www.bilibili.com/video/BV1tGYTzPEVb)
+* 图片：[图1](图片/HMM-part-1.jpg)、[图2](图片/HMM-part-2.jpg)、[图3](图片/HMM-part-3.jpg)、[图4](图片/HMM-part-4.jpg)
 * 参考课件：[Collins教授课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/collins-tagging.pdf)、[李正华的课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM.pdf)、[理解HMM的Viterbi](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM-v2.pptx)、[HMM模型中极大似然估计的由来(公式推导)](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/HMM%E6%9C%80%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1.pdf)
+
 ### 5.4 基于线性模型（linear model）的词性标注
+
+* 视频: [线性模型-1](https://www.bilibili.com/video/BV1AJYTzbExc)、[线性模型-2](https://www.bilibili.com/video/BV1TGYTzPEN4)、[线性模型-3](https://www.bilibili.com/video/BV1TGYTzPErc)、[线性模型-4](https://www.bilibili.com/video/BV1TGYTzPE6o)、[线性模型-5](https://www.bilibili.com/video/BV1KGYTzPEdc)
+* 图片：[图1](图片/linear-model-1.jpg)、[图2](图片/linear-model-2.jpg)、[图3](图片/linear-model-3.jpg)、[图4](图片/linear-model-4.jpg)、[图5](图片/linear-model-5.jpg)
 * 要点：判别模型、partial feature
 * 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/LinearModel.pdf)
-* 图片和视频：
-  * 视频：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-1.mp4)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-2.mp4)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-3.mp4)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-4.mp4)、[第5部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-5.mp4)
-  * 图片：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-1.jpg)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-2.jpg)、[第3部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-3.jpg)、[第4部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-4.jpg)、[第5部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/linear-model-5.jpg)
-  * 视频课程百度网盘链接： https://pan.baidu.com/s/1qec5SEPmVlqYrjBbn4S5wQ 提取码: 9i6x 
+
 ### 5.5 基于最大熵（max-entropy，log-linear）模型的词性标注
+
+* 视频: [最大熵-1](https://www.bilibili.com/video/BV1PJYTzbETa)、[最大熵-2](https://www.bilibili.com/video/BV1CJYTzbEbc)
+* 图片：[图1](图片/Maximum-entropy-1.jpg)、[图2](图片/Maximum-entropy-2.jpg)
 * 要点：梯度下降方法，Adam优化
 * 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/LogLinearModel.pdf)、[Collins教授课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/collins-loglinear.pdf)
-* 图片和视频：
-  * 视频：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/Maximum-entropy-1.mp4)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/Maximum-entropy-2.mp4)
-  * 图片：[第1部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/Maximum-entropy-1.jpg)、[第2部分](http://hlt.suda.edu.cn/LA/Ir-2022-Spring/HMM/Maximum-entropy-2.jpg)
-  * 视频课程百度网盘链接： https://pan.baidu.com/s/12q3iO5s23N6L9fEo3LuP7w 提取码: ra9h 
+
 ### 5.6 基于全局线性模型（global linear model）的词性标注
 参考课件：[李正华老师课件](https://github.com/SUDA-LA/recruiting/blob/main/New-stu-training/%E8%AE%B2%E4%B9%89/GlobalLinearModel.pdf)
 ### 5.7 基于条件随机场（conditional random field，CRF）模型的词性标注
